@@ -1,0 +1,90 @@
+1. You start with 1 finger up on each hand, as does your opponent.
+2. In each turn, with one of your hands, you hit the other hand or one of the opponent's hands.
+2a. If you hit your hand, you can redistribute the total number of fingers that you are holding up. You cannot interchange, though.
+2b. If you hit the opponent's hand, the number of fingers up on the latter increases by the number of fingers on the attacking hand. If the total exceeds 5, the remainder on division with 5 is displayed on hand.
+3. Each player's goal is to clear all fingers on the opponent's hand.
+
+Sample Game 1:
+Welcome to Chopsticks!
+(1,1)	(1,1)	START!
+
+
+(1,1)	(1,2)	Player 1 Opponent Move
+
+
+(2,1)	(1,2)	Player 2 Opponent Move
+
+
+(2,1)	(1,3)	Player 1 Opponent Move
+
+
+(0,1)	(1,3)	Player 2 Opponent Move
+
+
+(0,1)	(2,3)	Player 1 Opponent Move
+
+
+(0,4)	(2,3)	Player 2 Opponent Move
+
+
+(0,4)	(1,3)	Player 1 Opponent Move
+
+
+(0,0)	(1,3)	Player 2 Opponent Move
+
+Game over! Player 2 wins!
+
+
+Sample Game 2:
+Welcome to Chopsticks!
+(1,1)	(1,1)	START!
+
+
+(1,1)	(2,1)	Player 1 Opponent Move
+
+
+(2,1)	(2,1)	Player 2 Opponent Move
+
+
+(2,1)	(2,2)	Player 1 Opponent Move
+
+
+(4,1)	(2,2)	Player 2 Opponent Move
+
+
+(4,1)	(2,3)	Player 1 Opponent Move
+
+
+(1,1)	(2,3)	Player 2 Opponent Move
+
+
+(1,1)	(3,3)	Player 1 Opponent Move
+
+
+(4,1)	(3,3)	Player 2 Opponent Move
+
+
+(4,1)	(4,3)	Player 1 Opponent Move
+
+
+(4,0)	(4,3)	Player 2 Opponent Move
+
+
+(2,2)	(4,3)	Player 1 Self Move
+
+
+(0,2)	(4,3)	Player 2 Opponent Move
+
+
+(1,1)	(4,3)	Player 1 Self Move
+
+
+(0,1)	(4,3)	Player 2 Opponent Move
+
+
+(0,1)	(4,4)	Player 1 Opponent Move
+
+
+(0,0)	(4,4)	Player 2 Opponent Move
+
+Game over! Player 2 wins!
