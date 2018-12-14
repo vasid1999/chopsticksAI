@@ -7,6 +7,8 @@ choplib.py contains the functions that make the game work. If enough people requ
 
 A simple text-based interface is given in chop.py. Feel free to use your own interfaces.
 
+Also, if you want sample games, use chop_rand.py.
+
 Please suggest changes and improvements if you find any.
 
 Thank you and enjoy!
